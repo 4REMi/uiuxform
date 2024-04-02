@@ -61,7 +61,7 @@ padding-bottom: 30px;
     /* Set background image */
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
-    url('VerificationCode.jpg'); /* Relative path */
+    url('images/VerificationCode.jpg'); /* Relative path */
     /* Adjust background properties */
     background-size: cover; /* or contain, depending on your preference */
     background-position: center center; /* or any other position you prefer */
@@ -134,11 +134,12 @@ input:invalid {
   }
 
   .google .icon {
-    background-image: url('../uiuxform/google.webp'); /* Path to the Google icon file */
+    background-image: url('../images/google.webp');
   }
   
   .apple .icon {
-    background-image: url('../uiuxform/apple.png'); /* Path to the Apple icon file */
+    background-image: url('../images/apple.png');
+
   }
 
   .containerLogin{
